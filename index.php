@@ -67,7 +67,7 @@
 					var city = $("#city").val();
 					//alert(city);
 					$('.weather-temperature').openWeather({
-						key: 'ab8b2f0d83f4ad02aaaeabe6d8d77895',
+						key: 'f9e89de35135f7af084a93bb665e7038',
 						city: city+', IN',
 						descriptionTarget: '.weather-description',
 						windSpeedTarget: '.weather-wind-speed',
