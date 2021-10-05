@@ -1,0 +1,58 @@
+/* ________________________________ merkez bilgisi */
+#divMerkez {width:100%; height:16px; color:#555; padding:0 0 3px 6px;}
+#divMerkez p {margin:0 .4em 0 0; padding:0 2px 0 0; font-size:.8em; float:right;}
+#divMerkez p strong {display:block; float:left; font-weight:bold; color:#d0d4e0;}
+
+/* ________________________________ tahmin  */
+#divTahmin {width:100%; margin:.8em 0; padding:0;}
+#divTahmin img {margin:0 !important; padding:0 !important;}
+
+/* ________________________________ son durum */
+#divSonDurum {width:100%; margin:.8em 0 1em 0;}
+#divSonDurum img {margin:0 !important; padding:0 !important;}
+
+/* ------------------------------------------------ tablo */
+/* ------------------------------------------------  tablo son durum */
+table.tbl_sond {width:100%; border-collapse:separate; margin:0; border-spacing:.3em; font-size:100%;}
+.tbl_sond th {border-bottom:dotted 1px #d0d0d0; padding:0; color:#77abc1; vertical-align:middle; text-align:center; line-height:1.5em; background-color:#ecf4f8;}
+.tbl_sond td { border:none; padding:0; text-align:center; vertical-align:middle; text-align:center; font-weight:bold; font-size:1.3em; line-height:1.5em;}
+.sond_zaman {color:#8095a4;}
+/* ------------------------------------------------  tablo tahmin */
+table.tbl_thmn {width:100%; border-collapse:separate; margin:0; border-spacing:.16em; font-size:100%;}
+.tbl_thmn thead th {background-color:#ecf4f8; text-align:center; font-size:.8em; padding:.4em .1em; border-bottom:dotted 1px #d0d0d0; vertical-align:middle; color:#77abc1;}
+.tbl_thmn tbody th {background-color:#ededed; border-bottom:dotted 1px #d0d0d0; padding:0 0 0 5px; color:#555; vertical-align:middle;}
+.tbl_thmn tbody td {border-bottom:solid 1px #e5e5e5; padding:0 .9em 0 0; text-align:right; vertical-align:middle; font-weight:bold;}
+
+/* _______________________________  SICAKLIK - TH - icin max ve min */
+.tbl_thmn thead .maxTHs {color:#d32d30;}
+.tbl_thmn thead .minTHs {color:#4247b8;}
+
+/* _______________________________  NEM - TH -  icin max ve min */
+.tbl_thmn thead .maxTHn {color:#731d75;}
+.tbTahmin thead .minTHn {color:#1ab61a;}
+
+/* _______________________________  SICAKLIK max ve min */
+.tbl_thmn tbody .maxS {color:#d32d30; font-size:1.2em;}
+.tbl_thmn tbody .minS {color:#4247b8; font-size:1.2em;}
+
+/* _______________________________  SICAKLIK GECMIS max ve min gunluk geçmiş */
+.tbl_thmn tbody .maxSgcm {color:#d32d30;  font-size:.8em; font-weight:normal;}
+.tbl_thmn tbody .minSgcm {color:#4247b8; font-size:.8em; font-weight:normal;}
+
+/* _______________________________ NEM  max ve min */
+.tbl_thmn tbody .maxN {color:#731d75; font-size:1.2em;}
+.tbl_thmn tbody .minN {color:#1ab61a; font-size:1.2em;}
+
+/* _______________________________ zemin */
+.tbl_thmn .arkaGcm {background-color:#fcfcfc;}
+.tbl_thmn .arkaTrh {background-color:#fcfcfc;}
+.tbl_thmn .arkaAlter {background-color:#f4f6fa;}
+.tbl_thmn .arkaAlterTrh {background-color:#ecf0f8;}
+.tbl_thmn .arkaAlterGcm {background-color:#ecf0f8;}
+.tbl_thmn .aciklama {font-weight:normal; text-align:justify; padding:.4em .2em;}
+
+#divSecim520Blok {clear:both; width:100%; height:250px; margin-bottom:1.2em;}
+#divSecim520Harita {width:580px; float:left;}
+#divSecim520Il {width:170px; height:250px; float:left; overflow:auto; margin:0 3px;}
+#divSecim520Ilce {width:170px; height:250px; float:right; overflow:auto; margin:0 3px;}
+#divSecim520Il ul, #divSecim520Ilce ul {margin:3px;}
